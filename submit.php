@@ -7,7 +7,7 @@ $comment = $_POST['comment'];
 $attendance = $_POST['attendance'];
 
 // メール送信
-$to = 'example@mail.com';
+$to = 'satoshi_hada@jp.honda';
 $subject = '出欠確認';
 $message = "クラス名: {$class_number}\n名前: {$name}\nコメント: {$comment}\n出欠: {$attendance}";
 mail($to, $subject, $message);
