@@ -1,6 +1,5 @@
-
-name: syuukei
-source: .
+name: My Project
+source: https://github.com/torokoid/syuukei
 destination: /
 
 # POSTメソッドを許可
