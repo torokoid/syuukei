@@ -8,11 +8,11 @@
 </head>
 <body>
   <h1>出欠確認</h1>
-  <form action="submit.php" method="post">
+  <form action="submit.php" method="post"><br>
     <p>クラス名:</p>
-    <input type="text" name="class_number" required>
+    <input type="text" name="class_number" required><br>
     <p>名前:</p>
-    <input type="text" name="name" required>
+    <input type="text" name="name" required><br>
     <p>出欠:</p>
     <input type="radio" name="attendance" value="出席" checked> 出席
     <input type="radio" name="attendance" value="欠席"> 欠席
