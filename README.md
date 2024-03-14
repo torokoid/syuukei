@@ -10,9 +10,9 @@
   <h1>出欠確認</h1>
   <form action="submit.php" method="post"><br>
     <p>クラス名:</p>
-    <input type="text" name="class_number" required><br>
+    <input type="text" name="class_number" required><br><br>
     <p>名前:</p>
-    <input type="text" name="name" required><br>
+    <input type="text" name="name" required><br><br>
     <p>出欠:</p>
     <input type="radio" name="attendance" value="出席" checked> 出席
     <input type="radio" name="attendance" value="欠席"> 欠席
