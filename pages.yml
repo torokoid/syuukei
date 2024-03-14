@@ -1,0 +1,7 @@
+name: My Project
+source: .
+destination: /
+
+# POSTメソッドを許可
+http_methods:
+  - POST
